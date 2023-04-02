@@ -1,3 +1,8 @@
+# Introduction
+Small example that shows a simple Angular client that can connect to an Express API and perform a search in a database. 
+
+To make it work adjust your postgres config and queries in `server.js`.
+
 # Develop client
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
