@@ -33,7 +33,7 @@ app.get('/movies/search', async (request, response) => {
         const searchString = request.query.searchString;
 
         // Change to reflect your database tables and what you want to search for
-        const queryString = `SELECT * FROM movie WHERE title LIKE '%${searchString}%'`;
+        const queryString = `SELECT * FROM movie WHERE title ILIKE '%${searchString}%'`;
         console.log(queryString);
 
         const res = await client.query(queryString);
