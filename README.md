@@ -18,4 +18,4 @@ Installing can make server development easier as it watches for changes and auto
 
 Install globally by running `npm install -g nodemon`
 
-Run `npm watch` to start the server with nodemon.
+Run `npm run watch` to start the server with nodemon.
