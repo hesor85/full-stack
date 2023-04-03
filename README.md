@@ -1,5 +1,7 @@
 # Introduction
-Small example that shows a simple Angular client that can connect to an Express API and perform a search in a database. 
+Small example that shows a simple Angular client that can connect to an Express API and perform a search in a database.
+
+You can clone the repo and run `npm install` to get it up and running.
 
 To make it work adjust your postgres config and queries in `server.js`.
 
